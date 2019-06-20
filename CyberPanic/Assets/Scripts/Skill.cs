@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityIcon : MonoBehaviour
+
+//enum Stats {HP, SP, Damage, Protection, Intelligence, Will, Speed };
+
+public class Skill : MonoBehaviour
 {
 
 	public string abilityName;
