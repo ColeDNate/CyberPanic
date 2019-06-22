@@ -13,10 +13,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chracter : MonoBehaviour
+public class Character : MonoBehaviour
 {
 
-	enum Stats {HP, SP, Damage, Protection, Intelligence, Will, Speed };
+	enum Stat {HP, SP, Damage, Protection, Intelligence, Will, Speed };
 
 	public string CharacterName;
 	public int HP; //hit points

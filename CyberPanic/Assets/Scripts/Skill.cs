@@ -8,8 +8,10 @@ using UnityEngine;
 public class Skill : MonoBehaviour
 {
 
-	public string abilityName;
+	public string skillName;
 	public int SPCost;
+
+	public Character.Stat
 	public int statModifier;
    
 }
