@@ -11,7 +11,12 @@ public class Skill : MonoBehaviour
 	public string skillName;
 	public int SPCost;
 
-	public Character.Stat
+	//Adding stats to the character
+	public Character.Stat statModified;
 	public int statModifier;
-   
+
+	//Dealing damage/ heals
+	public Character.Stat statEffected;
+	public int effect;
+
 }

@@ -16,7 +16,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 
-	enum Stat {HP, SP, Damage, Protection, Intelligence, Will, Speed };
+	public enum Stat {HP, SP, Damage, Protection, Intelligence, Will, Speed };
 
 	public string CharacterName;
 	public int HP; //hit points
