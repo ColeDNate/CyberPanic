@@ -15,8 +15,12 @@ public class Skill : MonoBehaviour
 	public Character.Stat statModified;
 	public int statModifier;
 
-	//Dealing damage/ heals
+	//Dealing damage / heals
 	public Character.Stat statEffected;
-	public int effect;
+	public int effectPotency;
+
+
+
+
 
 }

@@ -27,4 +27,10 @@ public class Character : MonoBehaviour
 	public int Will; //defense bosting stat
 	public int Speed; //SP regeneration and/or cooldown reduction
 
+	//Kit
+	public MainAbility main;
+	public AbilityCard sub1;
+	public AbilityCard sub2;
+	public AbilityCard sub3;
+
 }
